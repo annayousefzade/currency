@@ -45,7 +45,7 @@ function App() {
       <section class="priceTable-container-main">
            <div class="priceTable-column-1">
                <h3 class="priceTable-header">خرید</h3>
- <h3 class="priceTable-price">{currency[0].Sell}</h3>
+ <h3 class="priceTable-price"> {currency.Currency[0].Sell} تومان</h3>
  
  
                <ul class="priceTable-ul">
@@ -56,7 +56,7 @@ function App() {
                <section class="priceTable-container-main">
            <div class="priceTable-column-1">
                <h3 class="priceTable-header">فروش</h3>
- <h3 class="priceTable-price">12</h3>
+ <h3 class="priceTable-price">{currency.Currency[0].Buy} تومان</h3>
                <ul class="priceTable-ul">
                    
                </ul>
@@ -65,6 +65,7 @@ function App() {
    </section>
 </div>
 </div>
+
 
 
 </main>
